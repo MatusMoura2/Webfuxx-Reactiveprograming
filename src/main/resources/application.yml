@@ -1,0 +1,4 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://${USER_DB:admin}:${PASSWORD_DB}@webfluxmatus.cdeoo.mongodb.net/${NAME_DB:matus-webflux}?retryWrites=true&w=majority&appName=WebfluxMatus
